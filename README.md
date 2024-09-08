@@ -15,6 +15,15 @@ StreamLocationService is a gRPC-based project for providing real-time location u
 
 ---
 
+## App Demo 📸
+
+Explore the app's interface through this demo video:
+
+<img src="https://github.com/abhishekdubey331/StreamLocations-gRPC/blob/main/demo.gif" width="700"/>
+
+
+---
+
 ## Technologies
 
 - **Kotlin**: Core language for both server and client.
