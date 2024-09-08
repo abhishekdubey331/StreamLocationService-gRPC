@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package location;
+
+option java_package = "com.example.streamlocations.data.location";
+
+/**
+ * Request message for retrieving a user's location updates.
+ */
+message LocationRequest {
+  string userId = 1;  // Unique identifier for the user.
+}
+
+/**
+ * Represents the location of a user.
+ */
+message UserLocation {
+  string userId = 1;  // Unique identifier for the user.
+  double longitude = 2;  // Longitude of the user's location.
+  double latitude = 3;   // Latitude of the user's location.
+  uint64 timestamp  = 4; // Unix timestamp of the location.
+}
+
+/**
+ * gRPC service for streaming user locations.
+ */
+service LocationService {
+  /**
+   * Streams the location updates for a specific user.
+   *
+   * @param LocationRequest The request containing the userId.
+   * @returns A stream of UserLocation messages.
+   */
+  rpc GetLocation(LocationRequest) returns (stream UserLocation) {}
+}

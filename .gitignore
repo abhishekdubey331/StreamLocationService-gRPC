@@ -1,0 +1,63 @@
+# Kotlin/Java specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA related files
+.idea/
+*.iml
+*.iws
+out/
+build/
+
+# Android specific files
+.gradle/
+local.properties
+.DS_Store
+.cxx/
+.externalNativeBuild/
+captures/
+outputs/
+*.apk
+*.ap_
+*.db
+*.db_journal
+*.jks
+*.keystore
+
+# Gradle specific files
+.gradle/
+build/
+!gradle-wrapper.jar
+**/build/
+**/out/
+.gradle/
+gradle-app.setting
+gradle.properties
+gradlew
+gradlew.bat
+gradle/
+gradle/wrapper/gradle-wrapper.properties
+
+# Protobuf
+*.pb
+
+# Log files
+*.log
+
+# Generated files
+gen/
+generated/
+bin/
+
+# Android Studio specific files
+.idea/
+*.apk
+*.ap_
+*.db
+*.db_journal
+
+# Mac specific files
+.DS_Store
+.idea/
