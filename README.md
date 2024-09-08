@@ -26,19 +26,6 @@ StreamLocationService is a gRPC-based project for providing real-time location u
 
 ---
 
-## Project Structure
-
-📦StreamLocationService ┣ 📂app ┣ 📂data ┣ 📂domain ┣ 📂presentation ┣ 📂proto ┣ 📜README.md ┗ 📜.gitignore
-
-
-- **`app/`**: Android application including UI components like `MapScreen`.
-- **`data/`**: API definitions, repository, and gRPC client for consuming location data.
-- **`domain/`**: Contains use cases and business logic for fetching location updates.
-- **`presentation/`**: Composable components like `MapScreen` and `CarMarker` for rendering the map and markers.
-- **`proto/`**: Protocol buffer (`.proto`) files defining the gRPC services and messages.
-
----
-
 ## Setup and Installation
 
 ### Prerequisites
