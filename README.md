@@ -49,10 +49,6 @@ Explore the app's interface through this demo video:
 
 The server simulates the user’s movement by streaming location data.
 
-## Running the Server
-
-The server simulates the user’s movement by streaming location data.
-
 ### Steps to Run the Server:
 
 1. You can run the server directly by executing the `main` method in the `LastKnownLocationServer` class, located in the server code.
